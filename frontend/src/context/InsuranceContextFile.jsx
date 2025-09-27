@@ -5,7 +5,7 @@ export const InsuranceContext = createContext()
 function InsuranceContextFile({children}) {
 
     // let url="http://localhost:8000"
-    let url="https://complance-digest.onrender.com"
+    let url="https://bfsiopendata.onrender.com"
 
   return (
 <InsuranceContext.Provider value={{ url }}>
